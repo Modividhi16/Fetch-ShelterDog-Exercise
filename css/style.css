@@ -1,0 +1,39 @@
+/* Apply a background image for the login page */
+body {
+    background-image: url('/images/login.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#loginForm {
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 400px;
+}
+
+.login input{
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.login button {
+    background-color: #737373;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    width: 80px;
+    margin-left: 100px;
+}
+
+.login button:hover {
+    background-color: #D9D9D9;
+}
