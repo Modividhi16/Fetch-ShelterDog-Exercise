@@ -1,6 +1,5 @@
-/* Apply a background image for the login page */
 body {
-    background-image: url('../images/login.jpg'); /* Replace with your background image URL */
+    background-image: url('../images/homepageImage.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
