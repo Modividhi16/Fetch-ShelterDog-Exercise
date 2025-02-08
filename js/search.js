@@ -203,7 +203,7 @@ document.getElementById("sortToggle").addEventListener("click", () => {
 function logout() {
     fetch(`${baseUrl}/auth/logout`, { method: "POST", credentials: "include" })
         .then(() => {
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         })
         .catch(error => console.error("Error logging out:", error));
 }
